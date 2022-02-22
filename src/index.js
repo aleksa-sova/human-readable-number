@@ -81,6 +81,7 @@ module.exports = function toReadable (number) {
     }
       return x + q;
   }
+  let x;
 
     if (xStr.length === 3) {
         numTwo === '' ? result = firstNum(Number(xStr[0])) + ' hundred' : result = firstNum(Number(xStr[0])) + ' hundred ' + numTwo;
